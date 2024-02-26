@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+}
+
+#subheading {
+    color: green;
+}
+
+.content {
+    /* Color name OR Hex code OR RGB */
+    color: blue;
+    height: 500px;
+    width: 50%;
+
+    /* Border */
+    /* border: 3px dashed red; */
+    /* border: 2px solid rgb(255, 99, 71); */
+    /* border: 2px solid rgba(255, 99, 71, 0.8); */
+    /* border: 2px solid #ff6347; */
+    /* border: 2px solid hsl(9, 100%, 64%); */
+    /* border: 2px solid red; */
+
+    border-top: 4px solid red;
+    border-right: 4px solid green;
+    border-bottom: 4px solid blue;
+    border-left: 4px solid yellow;
+
+    border-radius: 50px;
+
+    /* Background Image */
+    background-image: url('./test.webp');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+
+    margin: 50px;
+
+    padding: 50px;
+}
