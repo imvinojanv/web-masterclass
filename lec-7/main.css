@@ -1,0 +1,31 @@
+h1 {
+    width: 50%;
+    background-color: aqua;
+    text-align: center;
+
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px red;
+    font-family: "Sofia", sans-serif;
+    font-style: italic;
+    font-weight: black;
+    font-size: 20px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+a:active {
+    color: yellow;
+}
