@@ -1,0 +1,83 @@
+body {
+    font-family: "Inter", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+.nav-logo {
+    width: 200px;
+    height: 36px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.nav-links a {
+    color: #667085;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-right {
+    background-color: #023047;
+    color: white;
+    padding: 14px 24px;
+    border-radius: 10px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+.hero-content {
+    width: 50%;
+    padding-left: 150px;
+}
+
+.hero-content .hero-heading {
+    font-size: 60px;
+    color: #101828;
+}
+
+.hero-content .hero-subheading {
+    font-size: 20px;
+    color: #667085;
+}
+
+.hero-app {
+    margin-top: 60px;
+}
+
+.hero-app img {
+    height: 50px;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+.hero-img img {
+    width: 100%;
+    width: 700px;
+    float: right;
+}
